@@ -32,22 +32,37 @@ main{
 
 }
 /*depois do content estilizar os spans*/
-.terminar{
+/*.reiniciar button{
     display: flex;
-    margin-top: 160px;
-    gap: 180px;
+    justify-content: end;
+    margin-left: 13px;
 
 }
+/*.continue button{
+    display: flex;
+    justify-content: end;
+    margin-right: 9px;
+    background-color: blue;
+
+}*/
 button{
-    width: 80%;
+    width: 95%;
     text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-    margin-top: 100px;
+    display: flex;
+    gap: 18px;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 280px;
+    margin-left: 15px;
     color: white;
     background-color: rgb(118, 15, 118);
     font-family: "Silkscreen", sans-serif;
 }
 button:hover{
     background-color: rgba(255, 0, 247, 0.731);
+}
+#botoes{
+    display: flex;
+    gap: 450px;
 }
