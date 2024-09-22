@@ -1,3 +1,25 @@
+import questions from './questions.js'
+
+var quantidade = document.querySelector("quantidade")
+var questoes = document.querySelector("questoes")
+var respostas = document.querySelector("respostas")
+
+
+function carregarPerguntas () {
+ quantidade.innerHTML
+}
+
+
+
+
+
+
+
+
+
+
+
+
 function BotaoPrincipal(reiniciar){
 console.log("botão clicado")
 }
