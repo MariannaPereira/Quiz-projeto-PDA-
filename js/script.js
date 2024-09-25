@@ -2,11 +2,13 @@ var quantidade = document.querySelector("quantidade")
 var questoes = document.querySelector("questoes")
 var respostas = document.querySelector("respostas")
 
-var perguntaAtual = 0;
+let perguntaAtual = 0;
+let score=0;
 
-function carregar_pergunta(pergunta){
-    Alert(pergunta.questao)
-    }
+
+//function carregar_pergunta(pergunta){
+ //   Alert(pergunta.questao)
+    //}
 
 //function carregarPerguntas (){
     //if(quantidade === respostas){
