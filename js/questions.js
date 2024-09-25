@@ -4,3 +4,4 @@ const questions = [
     {questao:"Quais as ccaracterísticas a seguir são as características de 'let'?", opcoes:["Pode ser declarado e atualizado","Pode ser redefinido, mas não pode haver outra declaração", "Sempre usado em valores imutáveis", "Sempre usado em valores imutáveis e não pode haver outra declaração"], resposta:1}
 ]
 
+questions()
