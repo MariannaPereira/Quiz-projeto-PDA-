@@ -5,9 +5,11 @@ var questoes = document.querySelector("questoes")
 var respostas = document.querySelector("respostas")
 
 
-function carregarPerguntas () {
+function carregarPerguntas (questions) {
  quantidade.innerHTML
+ console.log(questions)
 }
+console.log(questions)
 
 
 
