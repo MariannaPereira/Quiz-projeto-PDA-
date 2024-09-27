@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var quantidade = document.querySelector("quantidade")
 var questoes = document.querySelector("questoes")
 var respostas = document.querySelector("respostas")
@@ -35,3 +36,17 @@ console.log("botão clicado")
 botaoPrincipal()
 
 //Esse é a função onclick (quando clica no botão ele tem uma ação), falta fazer o looping
+=======
+const botaoComeca = document.getElementById('start-btn');
+const inicio = document.getElementById('quiz-container');
+const telaQuiz = document.getElementById('telaQuiz');
+//add um evento quando o botão começar é clicado
+botaoComeca.addEventListener('click', function(){
+    //esconde a tela inicial
+    inicio.style.display = 'none';
+    //mostra a tela de perguntas
+    telaQuiz.style.display ='block';
+    //carrega a pergunta e as respostas
+    mostrarPergunta();
+})
+>>>>>>> 6eb50648651b15d46c9baf448a9c4de2cf19dc2f
