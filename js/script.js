@@ -4,7 +4,6 @@ var respostas = document.querySelector("respostas")
 
 var perguntaAtual = 0;
 
-<<<<<<< HEAD
 function carregar_pergunta(pergunta){
     Alert(pergunta.questao)
     }
@@ -17,13 +16,12 @@ function carregar_pergunta(pergunta){
    // }
 //}
 //carregarPerguntas()
-=======
+
 function carregarPerguntas (questions) {
  quantidade.innerHTML
  console.log(questions)
 }
 console.log(questions)
->>>>>>> 1799a17335ad37819de539e7a7473557152605cd
 
 
 
