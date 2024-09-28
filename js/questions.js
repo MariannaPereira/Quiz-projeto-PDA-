@@ -31,7 +31,6 @@ function verificarResposta(indiceResposta) {
         alert("Errado! Tente novamente.");
     }
 }
-<<<<<<< HEAD
 
 const questions = [
     {questao: "Qual dessas opções NÃO é uma linguagem de programação? ", opcoes:["HTML", "Javascript","Python","C#"], resposta:0},
@@ -44,5 +43,3 @@ questions()
  
 
 export default questions;
-=======
->>>>>>> 6eb50648651b15d46c9baf448a9c4de2cf19dc2f
