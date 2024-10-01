@@ -21,12 +21,14 @@ function carregarPerguntas(questions) {
   quantidade.innerHTML;
   console.log(questions);
 }
-console.log(questions);
+const questions=[];
+// console.log(questions);
 
 function botaoPrincipal(reiniciar) {
   console.log("botão clicado");
 }
-botaoPrincipal();
+botaoPrincipal(); 
+//alteração para mudar a tela quando clicar em "iniciar quiz"
 function iniciarQuiz(){
  let telaQuiz = document.getElementById("telaQuiz");
  telaQuiz.style.display = "none";
