@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="Quiz-projeto-PDA-/css/styles.css">
     <title>TechExplorer - Quiz de Tecnologia</title>
 </head>
 <body>
-    <h2>QUIZ TechExplorer</h2>
-    <main>
-        <div id="quiz_container">
-            <div id="questoes"></span>
-            <div id="opcoes"></div>
-            <button Onclick="botaoPrincipal()">Próxima pergunta</button>
+    <div class="introduction">
+        <h1>QUIZ</h1>
+    </div>
+    <div id="welcome">
+        <h1>QUIZ TechExplorer</h1>
+        <button id="start-button">Começar</button>
         </div>
-        <div id="resultado"></div>
-    </main>
-    <script src="./js/questions.js"></script>
-    <script src="./js/script.js"></script>
+        <div id="quiz">
+            <h1 id="pergunta"></h1>
+            <div id="opcoes"></div>
+            <h2 id="pontuacao"></h2>
+        </div>
+    <script src="./Quiz-projeto-PDA-/js/question.js"></script>
 </body>
 </html>
